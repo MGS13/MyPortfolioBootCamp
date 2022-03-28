@@ -1,0 +1,16 @@
+.header{
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  text-align:center;
+  color: orangered;
+}
+
+.topnav{
+  background-color:rgba(220,120,75,1);
+  padding:20px 20px;
+  overflow: hidden;
+}
+
+.topnav a{
+  padding:10px 10px;
+}
