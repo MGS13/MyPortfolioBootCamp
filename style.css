@@ -1,16 +1,172 @@
-.header{
-  background-color: lightgoldenrodyellow;
-  padding: 20px;
-  text-align:center;
-  color: orangered;
+body{
+    margin: 0;
+    background-color: lightblue;
+    background-image: url(bground.gif);
+    background-size: cover;
+
+}
+#labz{
+    margin: 0;
+    background-color: red;
+    background-image: url(labzz.gif);
+    background-size: cover;
+}
+#projectz{
+    margin: 0;
+    background-color: yellow;
+    background-image: url(projectz.gif);
+    background-size: cover;
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+#nav > ul{
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+#nav > ul > li{
+    list-style: none;
+}
+#nav > ul > li> a{
+    text-decoration: none;
+    font-weight: 900;
+    color: cornsilk;
+}
+#landing{
+    width: 100%;
+    height: 100vh;
+    /*background-image: url(bground.gif);*/
+    background-size: cover;
 }
 
-.topnav{
-  background-color:rgba(220,120,75,1);
-  padding:20px 20px;
-  overflow: hidden;
+#labdiv{
+    
+    margin: auto;
+    margin-top: 100px;
+    Background-color: lightblue; 
+    height: 50vh; 
+    width: 80vw; 
+    border: 10px solid black;
+    align-self: center;
 }
 
-.topnav a{
-  padding:10px 10px;
+#labt{
+    background-color: rgb(255, 102, 0);
+    text-align: center;
+    
+}
+#lab_container{
+    height: 100px;
+}
+
+
+
+.card{
+    margin-top: 100px;
+    background-color: lightcoral;
+    border: 5px;
+    border-style: solid;
+    height: 40rem;
+    width: 60rem;
+}
+#corgs{
+    width: 50%;
+    height: 50%;
+    align-self: center;
+}
+#landing{
+    height: 50rem;
+    
+}
+#picholder{
+    width: auto;
+    max-height: 50vh;
+    position: relative;
+}
+
+#first{
+    display: grid;
+    place-items: left;
+    width: 30vh;
+    height: 40vh;
+}
+#snake{
+    display: grid;
+    
+    width: 30vh;
+    height: 40vh;
+}
+#startup{
+    position: absolute;
+    top: 0px;
+    right: 1304px;
+    width: 40vh;
+    height: 40vh;
+}
+#node{
+    position: absolute;
+    top: 0px;
+    right: 835px;
+    width: 45vh;
+    height: 40vh;
+}
+#jqu{
+    position: absolute;
+    top: 0px;
+    right: 430px;
+    width: 40vh;
+    height: 40vh;
+}
+#reactapi{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40vh;
+    height: 40vh;
+}
+#projdiv{
+    margin: auto;
+    margin-top: 100px;
+    Background-color: lightblue; 
+    height: 50vh; 
+    width: 80vw; 
+    border: 10px solid black;
+    align-self: center;
+}
+
+#tableproj{
+    text-align: center;
+
+}
+
+.card{
+    border-color:red ;
+}
+
+#mainh2{
+    color: purple;
+    text-decoration-line: underline;
+}
+
+#between{
+    border-style: double;
+    color: tomato;
+    background-color: coral;
+    width: 80vw;
+}
+#projh1{
+    color: chocolate;
+    text-decoration-line: underline
 }
